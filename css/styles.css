@@ -1,0 +1,147 @@
+html, body {
+  background: #6F4E37;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6,p {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.5% 2.5% 0;
+  background: white;
+  line-height: 1.8;
+}
+
+h1 {
+  font: 2.5em Arial, Helvetica, sans-serif;
+  margin-bottom: 0.5em;
+  color: black;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+h2 {
+  font: 1.65em Arial, Helvetica, sans-serif;
+  margin-bottom: 0.3em;
+  color: black;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.15em;
+  color: black;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+ul {
+  font-size: 1em;
+}
+
+a {
+  color: rgb(255, 0, 0);
+}
+
+ul a {
+  font-size: inherit;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+header h2 {
+  padding-bottom: 0.2em;
+  border-bottom: none;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 3em;
+	margin-top: 1em;
+}
+
+/* Ensures that images scale responsively, maintaining their aspect ratio */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Highlights text with a yellow background and black text color */
+mark {
+  background-color: yellow;
+  color: black;
+}
+
+/* The summary element is displayed as an inline block */
+summary {
+  display: inline-block;
+  padding: 2px 5px;  
+  font-size: 0.9em;  
+  background-color: #f1f1f1;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* When the summary element is hovered over */
+summary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styles for the button element */
+button {
+  padding: 5px 5px;   
+  font-size: 14px;      
+  width: 150px;         
+  border: none;
+  cursor: pointer;
+}
+
+/* When the button element is hovered over */
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styles for the input element */
+input {
+  width: 150px;   
+  height: 5px;   
+  padding: 10px;  
+  font-size: 14px; 
+}
+
+/* Styles for the element with ID 'result' */
+#result {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  font-size: 1.15em;
+  color: red;
+  font-weight: bold;
+}
